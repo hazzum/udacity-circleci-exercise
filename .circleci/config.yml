@@ -15,4 +15,4 @@ jobs:
       - run:
           name: hello
           command: |
-            echo "hello-world"
+            echo "updated command"
