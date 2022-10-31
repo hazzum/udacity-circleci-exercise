@@ -13,5 +13,8 @@
     "build": "yarn clean && cp -rf client/ www/client && cp -rf node_modules www/node_modules && cp -rf public/ www/public && cp config.js contacts.js server.js package.json www",
     "zip": "yarn build && cd www && zip -r -D ../app.zip *",
     "deploy": "chmod +x ./bin/deploy.sh"
+  },
+  "devDependencies": {
+    "yarn": "^1.22.19"
   }
 }
